@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-
+# define how to declare the model
 class SentimentRNN(nn.Module):
     def __init__(self, vocab_size, embed_dim, hidden_dim, num_classes=2):
         super().__init__()
